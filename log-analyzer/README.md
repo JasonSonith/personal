@@ -104,7 +104,3 @@ python analyzer.py --logdir logs/
 - Use of external APIs for IP geolocation (`ipinfo.io`)  
 - Color-coded CLI feedback for better readability  
 
----
-
-## Resume-Ready Description  
-Built a Python-based security analysis tool that parses system logs, detects suspicious login activity, logs events to JSON, summarizes suspicious IPs with geolocation, and highlights likely brute-force attempts.  

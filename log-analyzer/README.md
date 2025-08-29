@@ -34,7 +34,7 @@ Suspicious IP      Attempts     Possible Attack
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/JasonSonith/AI-Threat-Analyzer.git
+git clone https://github.com/JasonSonith/log-analyzer.git
 cd AI-Threat-Analyzer
 pip install -r requirements.txt
 ```
@@ -78,5 +78,4 @@ Options:
 
 ---
 
-## Resume-Ready Description  
-Built a Python-based security analysis tool that parses system logs for suspicious events, highlights top IPs, and classifies attack types into a structured report.  
+

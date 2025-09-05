@@ -34,3 +34,21 @@ graph TD
 
 ``hydra -l root -P rockyou.txt ssh://192.168.56.50``
 
+→ Blocked after multiple attempts, logged in Suricata
+
+- **Aggressive Nmap Scan**
+
+``nmap -A 192.168.56.50``
+→ Triggered multiple scan alerts
+
+##  Results
+- Unsafe Telnet traffic detected and blocked
+- SSH brute-force attempts detected and blocked
+- Alerts viewable in pfSense GUI and system logs
+- Logs exported in EVE JSON format for SIEM integration
+
+##  Future Work
+- Send Suricata logs to Splunk or ELK
+- Configure a wireguard VPN to secure remote access and test that connections are properly encryped and logged.
+- Implement Nessus Essentials to identify and patch critical vulnerabilities on lab VMs, validating fixes with rescans. 
+

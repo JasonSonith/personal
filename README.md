@@ -8,7 +8,7 @@ Each project is designed to build hands-on skills for security engineering, clou
 - [Security Log Analyzer](./log-analyzer)  
   A Python-based log analysis tool that parses system logs, detects suspicious events, and generates structured summaries of suspicious IP activity.  
 
-- [pfSense IDS/IPS Lab](./pfsense-ids-ips-lab)  
+- [Security-Home-Lab](./Security-Home-Lab)  
   A virtual lab environment built with pfSense and Suricata. The firewall is configured to block unsafe traffic (e.g., Telnet, brute-force SSH attempts) while logging alerts for review.  
   - **Tools:** pfSense, Suricata, VirtualBox, Kali Linux, Ubuntu  
   - **Features:**  

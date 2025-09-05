@@ -13,17 +13,5 @@ graph TD
   pfSense -->|LAN 192.168.56.2| Ubuntu[Ubuntu VM<br/>192.168.56.50]
   pfSense -->|WAN 10.0.2.15| Internet[(Internet)]
 
-## Configuration
-- **pfSense**
-  - Interfaces: WAN (10.0.2.15), LAN (192.168.56.2), OPT1 (10.10.10.1)
-  - DHCP reservations for Ubuntu & Kali
-  - NAT Port Forward for Telnet/SSH testing
-- **Suricata**
-  - Enabled on WAN + OPT1
-  - Rulesets: `emerging-telnet.rules`, `emerging-ssh.rules`, `emerging-botcc.rules`
-  - Block Offenders enabled (IPS mode)
 
-## Attack Simulation
-- **Telnet Scan (Nmap)**
-``nmap -p 23 192.168.56.50``
 

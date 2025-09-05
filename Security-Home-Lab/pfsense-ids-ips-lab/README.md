@@ -26,7 +26,11 @@ graph TD
 
 ## Attack Simulation
 - **Telnet Scan (Nmap)**
+
 ``nmap -p 23 192.168.56.50``
+→ Alerted as `ET TELNET Outbound Connection Detected`
 
+- **SSH Brute-Force (Hydra)**
 
+``hydra -l root -P rockyou.txt ssh://192.168.56.50``
 

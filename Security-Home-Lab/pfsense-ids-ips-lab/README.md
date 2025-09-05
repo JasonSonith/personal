@@ -26,5 +26,7 @@ graph TD
 
 ## Attack Simulation
 - **Telnet Scan (Nmap)**
+- 
 ``nmap -p 23 192.168.56.50``
+
 

@@ -7,8 +7,4 @@ for review. The lab simulates real-world attack traffic from Kali Linux to
 an Ubuntu victim machine, routed through pfSense.
 
 ##  Lab Topology
-Kali (10.10.10.20) ─ OPT1 (10.10.10.1)
-│
-pfSense Firewall
-│
-LAN (192.168.56.2) ─ Ubuntu (192.168.56.50)
+

@@ -1,7 +1,7 @@
 #  Threat Detector and Analyzer  
 
 ## Overview  
-The **AI Threat Detector and Analyzer** is a Python-based tool that parses system log files, detects suspicious login activity, and generates structured summaries.  
+The **Threat Detector and Analyzer** is a Python-based tool that parses system log files, detects suspicious login activity, and generates structured summaries.  
 It highlights suspicious IP addresses, counts repeated events, classifies them (failed logins, invalid users, sudo failures, disconnects), and provides optional IP geolocation.  
 
 This project demonstrates Python scripting, log parsing, and cybersecurity automation.  

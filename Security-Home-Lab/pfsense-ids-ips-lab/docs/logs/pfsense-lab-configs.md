@@ -3,14 +3,7 @@
 This document captures the core settings for my pfSense lab that connects an Ubuntu host on **LAN** and a Kali host on **OPT1**, with Internet access on **WAN**.
 
 ## Topology
-
-```
-Internet
-   |
- [WAN] pfSense [LAN 192.168.56.0/24] ---- Ubuntu host(s)
-                 |
-               [OPT1 10.10.10.0/24] ---- Kali host(s)
-```
+![Lab Topology](https://raw.githubusercontent.com/JasonSonith/personal/main/Security-Home-Lab/pfsense-ids-ips-lab/docs/Lab%20Topology.drawio.svg)
 
 ## Interfaces
 

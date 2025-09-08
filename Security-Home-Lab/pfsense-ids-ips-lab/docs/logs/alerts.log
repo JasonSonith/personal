@@ -1,0 +1,12 @@
+09/06/2025-17:36:00.147869  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:9
+09/06/2025-17:36:00.148558  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 192.168.56.50:0 -> 10.10.10.2:9
+09/06/2025-17:36:01.839205  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:9
+09/06/2025-17:36:01.840195  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 192.168.56.50:0 -> 10.10.10.2:9
+09/07/2025-20:39:02.160058  [**] [1:1000001:1] LOCAL ICMP ping to HOME_NET [**] [Classification: Misc activity] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:0
+09/07/2025-20:39:03.273855  [**] [1:1000001:1] LOCAL ICMP ping to HOME_NET [**] [Classification: Misc activity] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:0
+09/07/2025-20:39:04.303001  [**] [1:1000001:1] LOCAL ICMP ping to HOME_NET [**] [Classification: Misc activity] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:0
+09/07/2025-20:39:05.329383  [**] [1:1000001:1] LOCAL ICMP ping to HOME_NET [**] [Classification: Misc activity] [Priority: 3] {ICMP} 10.10.10.2:8 -> 192.168.56.50:0
+09/07/2025-20:39:11.772021  [**] [1:1000002:1] LOCAL TCP SYN to Telnet [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.10.2:34588 -> 192.168.56.50:23
+09/07/2025-20:39:21.780695  [**] [1:1000003:1] LOCAL TCP connect to SSH [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.10.2:46964 -> 192.168.56.50:22
+09/07/2025-20:39:27.832250  [**] [1:1000004:1] LOCAL TCP connect to HTTP [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.10.2:38774 -> 192.168.56.50:80
+09/07/2025-20:39:35.379434  [**] [1:1000005:1] LOCAL TCP connect to RDP [**] [Classification: Misc activity] [Priority: 3] {TCP} 10.10.10.2:42620 -> 192.168.56.50:3389

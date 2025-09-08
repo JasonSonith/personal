@@ -4,12 +4,12 @@ This document captures the core settings for my pfSense lab that connects an Ubu
 
 ## Topology
 
-```
-Internet
-   |
- [WAN] pfSense [LAN 192.168.56.0/24] ---- Ubuntu host(s)
-                 |
-               [OPT1 10.10.10.0/24] ---- Kali host(s)
+```mermaid
+graph TD
+  Kali[Kali VM<br/>10.10.10.20] -->|OPT1 10.10.10.1| pfSense[pfSense Firewall<br/>WAN: 10.0.2.15<br/>LAN: 192.168.56.2<br/>OPT1: 10.10.10.1]
+  pfSense -->|LAN 192.168.56.2| Ubuntu[Ubuntu VM<br/>192.168.56.50]
+  pfSense -->|WAN 10.0.2.15| Internet[(Internet)]
+
 ```
 
 ## Interfaces

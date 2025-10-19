@@ -9,7 +9,7 @@
 - Code along once.
 - Close video. Re-implement from memory in a fresh file.
 - Add a 10-line “challenge” variant (e.g., add argparse, logging, and tests).
-- Make 3–5 spaced-repetition cards (see §6).
+- Make 3–5 spaced-repetition cards (see #6).
 
 ## 3) Build a small, reusable `secutils` repo
 ```

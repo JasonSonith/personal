@@ -7,7 +7,7 @@ for review. The lab simulates real-world attack traffic from Kali Linux to
 an Ubuntu victim machine, routed through pfSense.
 
 ##  Lab Topology
-![Lab Topology](https://raw.githubusercontent.com/JasonSonith/personal/main/Security-Home-Lab/pfsense-ids-ips-lab/docs/Lab%20Topology.drawio.svg)
+![Lab Topology](https://raw.githubusercontent.com/JasonSonith/personal/main/pfsense-ids-ips-lab/docs/Lab%20Topology.drawio.svg)
 
 
 

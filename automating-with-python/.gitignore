@@ -19,5 +19,5 @@ Thumbs.db
 *.md
 !README.md
 
-#large txt files
-rockyou.txt
+#large txt files and wordlists
+wordlists/

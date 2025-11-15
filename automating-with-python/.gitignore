@@ -20,4 +20,4 @@ Thumbs.db
 !README.md
 
 #large txt files and wordlists
-wordlists/
+wordlists/*.txt

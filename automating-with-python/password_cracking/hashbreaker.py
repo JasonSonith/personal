@@ -23,7 +23,7 @@ if not wordlist_path.exists():
 
 create_hash = lambda password: hashlib.sha256(password.encode('utf-8')).hexdigest()
 
-def check_hash(chunk,obtained_hash):
+def check_hash(chunk):
     for i in chunk:
         if obtained_hash == create_hash(i):
             return i #returns the password
@@ -53,15 +53,18 @@ def main():
     for i in range (0, len(total_words), chunk_size):
         chunk = total_words[i:i+chunk_size]
         chunks.append(chunk)
+    start = time.perf_counter()
     with ProcessPoolExecutor() as executor:
-        futures = [executor.submit(check_hash, chunk, obtained_hash) for chunk in chunks]
+        futures = [executor.submit(check_hash, chunk) for chunk in chunks]
         
         for future in as_completed(futures):
             result = future.result()
             if result != None:
                 print(f"Password: {result}")
+                end = time.perf_counter()
+                elapsed = (end - start) * 1000
+                print(f"Parallel Programming Method: Finished in {elapsed:.2f} miliseconds")
                 raise SystemExit
-        print("No Hash was found!")
     
 if __name__ == '__main__':
     main()

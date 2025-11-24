@@ -21,7 +21,7 @@ total_words = read_wordlist(wordlist)
 start = time.perf_counter()
 for password in total_words:
     hash = hashlib.sha256(b'password').hexdigest()
-    if obtained_hash == hash:
+    if obtained_hash == hashlib.sha256(password.encode('utf-8')).hexdigest():
         print(f"Password is {password}")
         break
 
